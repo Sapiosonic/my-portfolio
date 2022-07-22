@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fundo{
+    background-color: azure;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0c5d88;  
+}
+
+nav{
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.nav-links{
+    font-size: 25px;
+    color: lightgrey;
+    text-decoration: none;
+    justify-items: center;
+    width: 50px;
+    height: 50px;
+    margin: 15px 20px;
+    padding: 15px 15px; 
+}
+
+.nav-links:hover{
+    background-color: lightgrey;
+    color: #0c5d88;
+}
+
+.img-logo{
+    width: 40px;
+    height: 50px;
+    margin: 15px 20px;
+    border: 2px solid black;   
+}
+
+.content-section{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    width: 55%;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: aliceblue;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 5px;
+    font-family: 'Open Sans';
+}
+
+.header-content > img:hover{
+    background-color: #0c5d88;
+    transition: ease-in 0.5;
+}
+
+.section-title{
+    padding: 10px;
+    color: #0c5d88;
+    font-family: 'Roboto Condensed';
+    font-size: 55px;
+    font-weight: 400;
+}
+
+span.author-name{
+    margin-right: 10px;
+    padding-right: 15px;
+    margin-left: 1px;
+}
+
+span.author-name > a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #0c5d88;
+}
+
+.my-pic{
+    display: inline-block;
+    align-items: center;
+    width: 110px;
+    height: 150px;
+    margin: auto;
+    border: 5px solid #0c5d88;
+    border-radius: 5px;   
+}
+
+.container-img{
+    float: left;
+    margin: 10px;
+    padding: 5px;
+}
+
+.container-article{
+    text-align: justify;
+    padding: 10px;
+}
+
+.content-p{
+    font-family: inherit;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 1.88;
+    color: black;
+    text-rendering: optimizeLegibility;
+}
+
+.title-comments1{
+    padding: 10px;
+}
+
+.bt {
+    height: 40px;
+    width: 80px;
+    border:2px solid #0c5d88;
+    border-radius:4px;
+    display:inline-block;
+    cursor:pointer;
+    font-family:'Open Sans';
+    font-weight:bold;
+    font-size:13px;
+    padding:6px 10px;
+    margin-top: 10px;
+    text-decoration:#0c5d88;
+}
+
+.bt:hover{
+    background-color: #0c5d88;
+    color: white;
+}
+
+.button:active {
+    background-color: #0c5d88;
+    box-shadow: 0 5px #0c5d88;
+    transform: translateY(4px);
+  }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid #0c5d88;
+}
+
+thead tr {
+    background-color: #CBC7CA; 
+    text-align: center;    
+}
+
+tr {
+    border: 3px solid #0c5d88;  
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #4a7288;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #628090;
+}
+
+tbody tr:hover{
+    background-color: #1d648a;
+}
+
+td {
+    border: 3px solid #0c5d88;
+    text-align: center;
+    font-family: inherit;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 1.88;
+    color: white;
+}
+
+thead td{
+    color: black;
+}
+
+.facebook-social{
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+    background-color: #4267B2;
+}
+
+.twitter-social{
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+    background-color: #1DA1F2;
+}
+
+.linkedin-social {
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+    background-color: #0072b1;
+}
+
+.whatsapp-social {
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+    background-color: #25D366;
+}
+
+.links-social {
+    padding: 10px;
+    font-size: 30px;
+    background-color: lightgoldenrodyellow;
+}
+
+.share-social {
+    padding: 10px;
+    font-size: 30px;
+    background-color: lightsalmon;
+}
+
+.contact-form {
+    margin: auto;
+    margin-top: 20px;
+    width: 55%;
+    padding: 25px;
+    border-radius: 15px;
+    background-color: aliceblue;
+}
+
+.contact-title {
+    padding: 10px;
+    color: #0c5d88;
+    font-family: 'Roboto Condensed';
+    font-size: 55px;
+    font-weight: 400;
+}
+
+.subject {
+    border: 0.8px solid black;
+}
+
+.email {
+    border: 0.8px solid black;
+}
+
+.author {
+    border: 0.8px solid black;
+}
+
+.end {
+    display: grid;
+    grid-template-columns: repeat(3, 550px [contact-title]);
+    background-color: #0c5d88;
+    width: auto;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.container-grid2 {
+    align-self: center;
+    padding-top: 15px;
+    
+}
+
